@@ -10,6 +10,7 @@ python = "^3.10"
 kaggle = "^1.5.16"
 nbstripout = "^0.6.1"
 catboost = "^1.2.2"
+hyperopt = "^0.2.7"
 
 
 [build-system]
