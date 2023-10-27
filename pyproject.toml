@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "fairness and explainability"
+version = "0.1.0"
+description = ""
+authors = ["ChrisTho23 <christophe.thomassin@hec.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+kaggle = "^1.5.16"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
