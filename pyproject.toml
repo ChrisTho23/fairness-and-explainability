@@ -6,12 +6,16 @@ authors = ["ChrisTho23 <christophe.thomassin@hec.edu>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "3.10.13"
 kaggle = "^1.5.16"
 nbstripout = "^0.6.1"
+numpy = "^1.26.1"
 catboost = "^1.2.2"
+shap = "^0.43.0"
+ipykernel = "^6.26.0"
+lime = "^0.2.0.1"
+[tool.poetry.group.dev.dependencies]
 hyperopt = "^0.2.7"
-
 
 [build-system]
 requires = ["poetry-core"]
