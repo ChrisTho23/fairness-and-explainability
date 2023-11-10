@@ -34,6 +34,26 @@ The repository is organized into folders representing each steps of the process,
    - Evaluation of the model's fairness with respect to the protected attribute. Statistical tests for Statistical Parity and Conditional Statistical Parity.
 9. **Step 9: Fairness-aware Model Post-processing (FPDP)**
    - Implementation of a fairness-aware model post-processing using a fairness measure.
+  
+### Requirements
+
+This project uses poetry for dependency management. If you haven't installed poetry yet, you can do so by following the instructions on their official documentation: [Poetry Installation Guide](https://python-poetry.org/docs/#installation)
+
+### Setting Up the Environment
+1. Clone the repository
+```bash
+git clone https://github.com/your-username/Tooling-for-data-science-app.git
+cd fairness-and-explainability
+```
+2. Install the dependencies using poetry
+```bash
+poetry install
+```
+3. Activate the virtual environment
+```bash
+poetry shell
+```
+After following the above steps, you should be inside the virtual environment with all the required packages installed.
 
 ## Contributors
 - Alvaro Calafell
