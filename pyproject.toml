@@ -17,6 +17,7 @@ lime = "^0.2.0.1"
 pygam = "^0.9.0"
 xper = "^0.0.65"
 seaborn = "^0.13.0"
+pyale = "^1.1.3"
 [tool.poetry.group.dev.dependencies]
 hyperopt = "^0.2.7"
 
